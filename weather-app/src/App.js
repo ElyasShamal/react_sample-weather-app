@@ -1,5 +1,6 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
+import Clock from "./Clock";
 
 function App() {
   const [weather, setWeather] = useState(null);
@@ -31,7 +32,9 @@ function App() {
 
       <section>
         <h2>Clock</h2>
-        <p>The Time is {}</p>
+        <p>
+          The Time is <Clock />
+        </p>
       </section>
 
       {/* <aside className="right_side">
