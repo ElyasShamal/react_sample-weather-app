@@ -11,3 +11,14 @@
   font-size: calc(10px + 2vmin);
   color: black;
 }
+
+dialog {
+  margin-top: 350px;
+}
+
+.button-btn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: red;
+}
